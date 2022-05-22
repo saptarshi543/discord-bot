@@ -1,12 +1,17 @@
 import React from "react";
 
 function Contact(){
-	const Style={
-	backgroundColor: 'lime',
-	padding: '5px'
-};
 const Style_heading={
-	width: '0px'
+	width: '0px',
+	backgroundColor:'purple',
+	padding: '5px',
+	borderRadius: '15px',
+};
+const Style={
+	backgroundColor: 'grey',
+	padding: '5px',
+	borderRadius: '25px',
+  border: '5px solid #73AD21'
 };
 
 return(
