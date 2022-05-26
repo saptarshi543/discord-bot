@@ -2,9 +2,9 @@ import React from "react";
 
 function Documentation(){
 const Style_heading={
-	width: '0px',
+		width: '75%',
 	backgroundColor:'purple',
-	padding: '5px',
+	padding: '10px',
 	borderRadius: '15px',
 };
 const Style={

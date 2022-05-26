@@ -15,6 +15,10 @@ function App() {
     <div>
  <Router>
     <Navbar />
+	  <br></br>
+	  <br></br>
+	  <br></br>
+	  <br></br>
     <Routes>
         <Route  path='/'  element={<Default />} />
         <Route path='/home' element={<Home />}  />

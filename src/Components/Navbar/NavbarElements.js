@@ -20,7 +20,7 @@ export const NavLink = styled(Link)`
   height: 100%;
   cursor: pointer;
   &.active {
-    color: #0f1c91;
+    color: #30910d;
   }
 `;
   
@@ -39,15 +39,15 @@ export const Bars = styled(FaBars)`
 `;
   
 export const NavMenu = styled.div`
-  display: flex;
-  align-items: center;
+  display: block;
+  align-items: center; 
   margin-right: -24px;
   /* Second Nav */
   /* margin-right: 24px; */
   /* Third Nav */
   /* width: 100vw;
 white-space: nowrap; */
-   @media screen and (max-width: 768px) {
+   /* @media screen and (max-width: 768px) {
     display: none;
   } */
 `;
